@@ -1,0 +1,68 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #fdf6ec; /* cream lembut */
+  color: #3b2f2f; /* cokelat tua */
+  line-height: 1.6;
+  padding: 40px;
+}
+
+/* ===== Main Title ===== */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #7a3e2e; /* cokelat kemerahan */
+  margin-bottom: 10px;
+}
+
+/* ===== Subtitle ===== */
+h3 {
+  text-align: center;
+  font-weight: normal;
+  color: #6b705c; /* hijau zaitun */
+  margin-bottom: 30px;
+}
+
+/* ===== Recipe List ===== */
+ol {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+
+  /* Card Effect */
+  background-color: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== List Item ===== */
+li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+/* ===== List Number (Marker) ===== */
+ol li::marker {
+  color: #a44a3f;      /* samakan dengan warna link */
+  font-weight: bold;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: #a44a3f; /* merah kecokelatan */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #582f0e; /* cokelat gelap */
+  text-decoration: underline;
+}
